@@ -55,7 +55,11 @@ Logi serwera potwierdzające wymuszenie autoryzacji oraz bezpieczne ustanawianie
 </kbd>
 
 ---
+##  Zawartość repozytorium
 
+* `Bezpieczeństwo protokołów IoT.pdf` — Pełna dokumentacja projektowa zawierająca część teoretyczną, specyfikację techniczną protokołów, szczegółowy opis przeprowadzonych eksperymentów, zrzuty ekranów z testów penetracyjnych oraz macierze analizy ryzyka pierwotnego i szczątkowego.
+
+---
 
 ---
 
