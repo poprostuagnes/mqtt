@@ -30,7 +30,7 @@ Komunikacja została ustrukturyzowana wokół scentralizowanego brokera, który 
 Wykorzystując analizator narzędziowy Wireshark, przechwycono pakiety transmisyjne na standardowym porcie. Payload oraz wrażliwe dane sterujące (w tym loginy i hasła) były w pełni czytelne dla pasywnego obserwatora w sieci:
 
 <kbd>
-  <img src="ruchsieciowy.jpg" alt="Analiza niezaszyfrowanego ruchu w Wireshark" width="800">
+  <img src="ruchsieciowy.png" alt="Analiza niezaszyfrowanego ruchu w Wireshark" width="800">
 </kbd>
 
 ---
@@ -43,7 +43,7 @@ W celu eliminacji ryzyk i utwardzenia infrastruktury sieciowej IoT zaimplementow
 Wygenerowano strukturę urzędu certyfikacji (CA) oraz klucze kryptograficzne. Ruch sieciowy został zabezpieczony za pomocą TLS (dla TCP/MQTT) oraz DTLS (dla UDP/CoAP). Ponowna analiza ruchu w Wiresharku potwierdziła, że payload stał się całkowicie zaszyfrowany i nieczytelny:
 
 <kbd>
-  <img src="zaszyfrowane.jpg" alt="Zaszyfrowany payload TLS w analizatorze pakietów" width="800">
+  <img src="zaszyfrowane.png" alt="Zaszyfrowany payload TLS w analizatorze pakietów" width="800">
 </kbd>
 
 ### 2. Autoryzacja i listy kontroli dostępu (ACL)
@@ -51,7 +51,7 @@ Wdrożono rygorystyczną politykę uwierzytelniania użytkowników. Broker Mosqu
 
 Logi serwera potwierdzające wymuszenie autoryzacji oraz bezpieczne ustanawianie połączeń szyfrowanych:
 <kbd>
-  <img src="logi.jpg" alt="Logi brokera Mosquitto - uwierzytelnianie i TLS" width="800">
+  <img src="logi.png" alt="Logi brokera Mosquitto - uwierzytelnianie i TLS" width="800">
 </kbd>
 
 ---
@@ -59,7 +59,3 @@ Logi serwera potwierdzające wymuszenie autoryzacji oraz bezpieczne ustanawianie
 
 ---
 
-
-* **Magdalena Stanek**
-* Opiekun projektu: dr inż. Mariusz Nycz
-* *Politechnika Rzeszowska, 2025*
