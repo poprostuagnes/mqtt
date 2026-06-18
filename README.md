@@ -15,7 +15,7 @@ Projekt zrealizowany w ramach przedmiotu *Projektowanie systemów bezpieczeństw
 
 ---
 
-## 🔬 Architektura środowiska i analiza podatności
+##  Architektura środowiska i analiza podatności
 
 W etapie podstawowym zweryfikowano domyślne konfiguracje protokołów. Testy wykazały krytyczną podatność na przechwytywanie danych w strukturze jawnego tekstu (plain text).
 
